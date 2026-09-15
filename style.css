@@ -2,31 +2,32 @@
    TOKENS
    ========================================================== */
 :root {
-  /* workspace (theme-swappable — see theme.js) */
-  --paper:      #EDF1EE;
-  --paper-2:    #E1E8E2;
-  --ink:        #101E1A;
-  --ink-soft:   #3E5750;
-  --muted:      #71847C;
-  --line:       #CBD8D0;
-  --teal:       #1FAE74;
-  --teal-soft:  #C9EEDD;
-  --gold:       #E0983A;
-  --gold-soft:  #F7E4C0;
+  /* workspace - Crisp Navy & White Theme */
+  --paper:      #FFFFFF;
+  --paper-2:    #F4F7F9;
+  --ink:        #0B132B;
+  --ink-soft:   #2C3E50;
+  --muted:      #64748B;
+  --line:       #E2E8F0;
+  --teal:       #1D4ED8;      /* Swapped to Royal Blue */
+  --teal-soft:  #DBEAFE;      /* Swapped to Light Blue */
+  --gold:       #0369A1;      /* Swapped to Ocean Blue */
+  --gold-soft:  #E0F2FE;      /* Swapped to Soft Ocean Blue */
   --coral:      #4C6FFF;
 
-  /* hero "console" — fixed, not swapped by the theme toggle on purpose */
-  --void:       #0A0F1C;
-  --void-2:     #121B2E;
-  --void-3:     #182338;
-  --void-line:  #26324A;
-  --on-void:    #F3F6FB;
-  --on-void-soft: #AAB6CC;
-  --signal:     #35D07F;
-  --signal-soft: rgba(53, 208, 127, 0.14);
-  --amber:      #F0B15C;
+  /* hero "console" — Dark Navy Hero Section */
+  --void:       #070F22;
+  --void-2:     #111827;
+  --void-3:     #1F2937;
+  --void-line:  #374151;
+  --on-void:    #F8FAFC;
+  --on-void-soft: #94A3B8;
+  --signal:     #3B82F6;      /* Swapped to Bright Blue */
+  --signal-soft: rgba(59, 130, 246, 0.15);
+  --amber:      #38BDF8;
   --indigo:     #6C87FF;
 
+  /* Layout & Fonts */
   --display: "Space Grotesk", "Segoe UI", sans-serif;
   --sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
