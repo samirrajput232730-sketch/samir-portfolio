@@ -19,9 +19,9 @@ const siteContent = {
     name: "Samir Solanki",
     title: "Accountant | Billing, GST & Financial Reporting",
     location: "Bhavnagar, Gujarat, India",
-    summary: "Accountant with hands-on experience in billing, GST compliance, financial reporting, and client operations across trading and wholesale businesses. Skilled in end-to-end bookkeeping, bank reconciliation, and data-driven reporting, with a track record of improving accuracy and turnaround time in fast-paced environments.",
-  },
+    summary: "Detail-oriented Accountant and E-commerce Coordinator blending traditional financial compliance with modern digital operations. Skilled in end-to-end bookkeeping, GST reconciliation, and data-driven reporting, alongside managing digital storefronts, product catalogs, and nationwide client fulfillment. Proven track record of improving financial accuracy, streamlining workflows, and driving online engagement.",
 
+   
   resume: {
     file: "Samir_Solanki_Resume.pdf",
   },
@@ -184,6 +184,25 @@ const siteContent = {
       demoUrl: "certs/data-management.pdf",
       demoLabel: "View certificate",
     },
+    {
+      status: "Project",
+      title: "Digital Product Catalogs",
+      tagline: "E-commerce Branding & Setup",
+      description: "Designed multi-page digital product catalogs for handcrafted antique decorative items using Canva.",
+      highlights: ["Configured digital business profiles and branding assets for online visibility."],
+      tags: ["Canva", "Digital Marketing", "Branding"],
+      icon: "layers",
+    },
+    {
+      status: "Upskilling",
+      title: "Data Analytics & Tax Compliance",
+      tagline: "Independent Coursework",
+      description: "Completed career skill development training covering SQL database querying, advanced MS Excel, and GST return filing.",
+      highlights: [],
+      tags: ["SQL", "MS Excel", "GST Returns"],
+      icon: "code",
+    },
+     
   ],
 
   skills: [
@@ -202,6 +221,12 @@ const siteContent = {
       description: "Tally, Tally Prime, Busy, Saral, Easy, Falcon, MS Excel, and CRM/database data management.",
       icon: "code",
     },
+    {
+  title: "E-commerce & technical tools",
+  description: "Digital storefront management (Shoopy, IndiaMART), multi-page product catalog design via Canva, SQL database querying, and digital marketing basics.",
+  icon: "layers",
+},
+     
   ],
 
   education: [
