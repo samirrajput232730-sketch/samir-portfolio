@@ -49,12 +49,24 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: var(--paper);
+  
+  /* The moving background effect */
+  background: linear-gradient(-45deg, #FFFFFF, #F0F7FA, #E0F2FE, #F4F7F9);
+  background-size: 400% 400%;
+  animation: bg-wave 14s ease infinite;
+  
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+}
+
+/* The animation rules for the background */
+@keyframes bg-wave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 a { color: inherit; text-decoration: none; }
@@ -846,3 +858,45 @@ a.contact-card:hover .contact-arrow { transform: translateX(3px); color: var(--t
 
 [data-tilt] { transition: transform 0.25s ease; will-change: transform; }
 .btn { transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease; }
+
+/* ==========================================================
+   CUSTOM SLEEK SCROLLBAR
+   ========================================================== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--void); 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--void-line); 
+  border-radius: 10px;
+  border: 2px solid var(--void);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--signal); 
+}
+
+/* ==========================================================
+   GRADIENT HERO HEADING
+   ========================================================== */
+.hero h1 {
+  background: linear-gradient(135deg, #FFFFFF 0%, #93C5FD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==========================================================
+   INTERACTIVE PROFILE PHOTO
+   ========================================================== */
+.photo-frame {
+  overflow: hidden;
+}
+.photo-frame img {
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+.photo-frame:hover img {
+  transform: scale(1.08) rotate(1deg);
+  filter: contrast(1.05);
+}
