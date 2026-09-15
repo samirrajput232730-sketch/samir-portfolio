@@ -10,45 +10,34 @@
    ========================================================== */
 
 const themes = {
-  paper: {
-    "--paper":       "#EDF1EE",
-    "--paper-2":     "#E1E8E2",
-    "--ink":         "#101E1A",
-    "--ink-soft":    "#3E5750",
-    "--muted":       "#71847C",
-    "--line":        "#CBD8D0",
-    "--teal":        "#1FAE74",
-    "--teal-soft":   "#C9EEDD",
-    "--gold":        "#E0983A",
-    "--gold-soft":   "#F7E4C0",
+  navy: {
+    "--paper":       "#FFFFFF",
+    "--paper-2":     "#F4F7F9",
+    "--ink":         "#0B132B",
+    "--ink-soft":    "#2C3E50",
+    "--muted":       "#64748B",
+    "--line":        "#E2E8F0",
+    "--teal":        "#1D4ED8",
+    "--teal-soft":   "#DBEAFE",
+    "--gold":        "#0369A1",
+    "--gold-soft":   "#E0F2FE",
     "--coral":       "#4C6FFF",
   },
-  slate: {
-    "--paper":       "#EEF1F5",
-    "--paper-2":     "#E1E7EE",
-    "--ink":         "#12192A",
-    "--ink-soft":    "#47536A",
-    "--muted":       "#7C879C",
-    "--line":        "#CBD3E2",
-    "--teal":        "#2E86AB",
-    "--teal-soft":   "#C9E3EE",
-    "--gold":        "#E0793E",
-    "--gold-soft":   "#F6D9C4",
-    "--coral":       "#7C5CFF",
-  },
-  ink: {
-    "--paper":       "#0F1622",
-    "--paper-2":     "#182233",
-    "--ink":         "#EDF1F5",
-    "--ink-soft":    "#B9C4D2",
-    "--muted":       "#7C8AA0",
-    "--line":        "#29344A",
-    "--teal":        "#35D07F",
-    "--teal-soft":   "#173A2A",
-    "--gold":        "#F0B15C",
-    "--gold-soft":   "#4A3620",
-    "--coral":       "#7C93FF",
-  },
+  midnight: {
+    "--paper":       "#070F22",
+    "--paper-2":     "#111827",
+    "--ink":         "#F8FAFC",
+    "--ink-soft":    "#94A3B8",
+    "--muted":       "#64748B",
+    "--line":        "#374151",
+    "--teal":        "#3B82F6",
+    "--teal-soft":   "rgba(59, 130, 246, 0.15)",
+    "--gold":        "#38BDF8",
+    "--gold-soft":   "rgba(56, 189, 248, 0.1)",
+    "--coral":       "#818CF8",
+  }
+};
+
 };
 
 const themeOrder = Object.keys(themes);
