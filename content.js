@@ -28,7 +28,7 @@ const siteContent = {
 
   stats: [
     { value: "4+", label: "years in accounting & financial operations", icon: "briefcase" },
-    { value: "5L+", label: "data records processed & migrated across roles", icon: "layers" },
+    { value: "500K+", label: "data records processed & migrated across roles", icon: "layers" },
     { value: "9", label: "professional certifications in finance & accounting", icon: "award" },
   ],
 
