@@ -20,8 +20,8 @@ const siteContent = {
     title: "Accountant | Billing, GST & Financial Reporting",
     location: "Bhavnagar, Gujarat, India",
     summary: "Detail-oriented Accountant and E-commerce Coordinator blending traditional financial compliance with modern digital operations. Skilled in end-to-end bookkeeping, GST reconciliation, and data-driven reporting, alongside managing digital storefronts, product catalogs, and nationwide client fulfillment. Proven track record of improving financial accuracy, streamlining workflows, and driving online engagement.",
+  },
 
-   
   resume: {
     file: "Samir_Solanki_Resume.pdf",
   },
@@ -85,11 +85,6 @@ const siteContent = {
     },
   ],
 
-  // Repurposed from "self-built tools" into a Certifications & training
-  // wall. Add a new object to this array for each certificate — keep
-  // `highlights` to 0-1 short lines so the card stays a consistent size.
-  // `demoUrl` links to the certificate file in /certs — omit demoUrl
-  // entirely for certificates with no PDF on hand.
   projects: [
     {
       status: "Certified",
@@ -202,7 +197,6 @@ const siteContent = {
       tags: ["SQL", "MS Excel", "GST Returns"],
       icon: "code",
     },
-     
   ],
 
   skills: [
@@ -222,11 +216,10 @@ const siteContent = {
       icon: "code",
     },
     {
-  title: "E-commerce & technical tools",
-  description: "Digital storefront management (Shoopy, IndiaMART), multi-page product catalog design via Canva, SQL database querying, and digital marketing basics.",
-  icon: "layers",
-},
-     
+      title: "E-commerce & technical tools",
+      description: "Digital storefront management (Shoopy, IndiaMART), multi-page product catalog design via Canva, SQL database querying, and digital marketing basics.",
+      icon: "layers",
+    },
   ],
 
   education: [
