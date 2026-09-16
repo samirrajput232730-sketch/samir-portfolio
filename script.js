@@ -375,10 +375,11 @@ if (heroSpotlight && wantsPointerEffects) {
 }
 
 /* ==========================================================
+/* ==========================================================
    MAGNETIC PRIMARY BUTTONS (desktop only, subtle pull toward cursor)
    ========================================================== */
 if (wantsPointerEffects) {
-  document.querySelectorAll('.btn-primary, .btn-ghost').forEach(btn => {
+  document.querySelectorAll('.btn-primary, .btn-ghost, .btn-premium-resume').forEach(btn => {
     btn.addEventListener('pointermove', (e) => {
       const rect = btn.getBoundingClientRect();
       const x = e.clientX - rect.left - rect.width / 2;
