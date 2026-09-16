@@ -37,9 +37,6 @@ const themes = {
     "--coral":       "#818CF8",
   }
 };
-
-};
-
 const themeOrder = Object.keys(themes);
 
 function applyTheme(name) {
