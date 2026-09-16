@@ -909,33 +909,37 @@ a.contact-card:hover .contact-arrow { transform: translateX(3px); color: var(--t
 @keyframes bg-drift-b { 0% { transform: translate(0,0) scale(1);} 100% { transform: translate(10vmax, -8vmax) scale(1.15);} }
 @keyframes bg-drift-c { 0% { transform: translate(-5vmax,-5vmax) scale(1);} 100% { transform: translate(5vmax, 5vmax) scale(1.25);} }
 /* ==========================================================
-   GLOWING PDF BADGE & RIPPLE PULSE BUTTON
+   PREMIUM GLASS BUTTON WITH SWEEPING LIGHT
    ========================================================== */
-.btn-pdf-pulse {
-  background: var(--signal-soft);
+.btn-premium-resume {
+  background: rgba(255, 255, 255, 0.05);
   color: var(--on-void);
-  border: 1.5px solid var(--signal);
-  animation: ripple-pulse 2.5s infinite;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-.btn-pdf-pulse:hover {
-  background: var(--signal);
-  color: #000;
+/* The sweeping light beam */
+.btn-premium-resume::before {
+  content: "";
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  animation: premium-sweep 3s infinite;
 }
 
-.pdf-badge {
-  background: #E11D48; /* Classic PDF Red so it stands out */
-  color: #ffffff;
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  font-weight: bold;
-  padding: 3px 6px;
-  border-radius: 4px;
-  letter-spacing: 0.5px;
+.btn-premium-resume:hover {
+  border-color: var(--signal);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
 }
 
-@keyframes ripple-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6); }
-  70% { box-shadow: 0 0 0 14px rgba(59, 130, 246, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+@keyframes premium-sweep {
+  0% { left: -100%; }
+  20% { left: 200%; }
+  100% { left: 200%; }
 }
