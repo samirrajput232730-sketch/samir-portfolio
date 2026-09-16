@@ -28,7 +28,7 @@ const siteContent = {
 
   stats: [
     { value: "4+", label: "years in accounting & financial operations", icon: "briefcase" },
-    { value: "\u20B910L+", label: "processed monthly across GST, billing & payments", icon: "chart" },
+    { value: "500,000+", label: "data records processed & migrated across roles", icon: "layers" },
     { value: "9", label: "professional certifications in finance & accounting", icon: "award" },
   ],
 
