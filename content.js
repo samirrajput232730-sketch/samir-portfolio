@@ -112,7 +112,7 @@ const siteContent = {
       highlights: ["Certificate of Achievement"],
       tags: ["TCS iON", "Accounting"],
       icon: "book",
-      demoUrl: "certs/accounting-fundamentals.pdf",
+      demoUrl: "accounting-fundamentals.pdf",
       demoLabel: "View certificate",
     },
     {
@@ -132,7 +132,7 @@ const siteContent = {
       highlights: [],
       tags: ["TCS iON", "Risk Management"],
       icon: "award",
-      demoUrl: "certs/risk-management.pdf",
+      demoUrl: "risk-management.pdf",
       demoLabel: "View certificate",
     },
     {
@@ -143,7 +143,7 @@ const siteContent = {
       highlights: [],
       tags: ["TCS iON", "Risk Management"],
       icon: "chart",
-      demoUrl: "certs/market-risk.pdf",
+      demoUrl: "market-risk.pdf",
       demoLabel: "View certificate",
     },
     {
@@ -154,7 +154,7 @@ const siteContent = {
       highlights: [],
       tags: ["TCS iON", "Financial Operations"],
       icon: "layers",
-      demoUrl: "certs/settlements.pdf",
+      demoUrl: "settlements.pdf",
       demoLabel: "View certificate",
     },
     {
@@ -165,7 +165,7 @@ const siteContent = {
       highlights: [],
       tags: ["TCS iON", "Finance"],
       icon: "book",
-      demoUrl: "certs/mutual-funds.pdf",
+      demoUrl: "mutual-funds.pdf",
       demoLabel: "View certificate",
     },
     {
@@ -176,7 +176,7 @@ const siteContent = {
       highlights: [],
       tags: ["TCS iON", "Data Management"],
       icon: "code",
-      demoUrl: "certs/data-management.pdf",
+      demoUrl: "data-management.pdf",
       demoLabel: "View certificate",
     },
     {
