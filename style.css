@@ -48,10 +48,11 @@
 html { scroll-behavior: smooth; }
 
 body {
+body {
   margin: 0;
   
   /* The moving background effect */
-  background: linear-gradient(-45deg, #FFFFFF, #F0F7FA, #E0F2FE, #F4F7F9);
+  background: linear-gradient(-45deg, var(--paper), var(--teal-soft), var(--paper-2), var(--paper));
   background-size: 400% 400%;
   animation: bg-wave 14s ease infinite;
   
