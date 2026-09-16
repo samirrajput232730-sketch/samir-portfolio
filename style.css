@@ -901,10 +901,10 @@ a.contact-card:hover .contact-arrow { transform: translateX(3px); color: var(--t
   filter: contrast(1.05);
 }
 .page-bg { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
-.page-bg-blob { position: absolute; border-radius: 50%; filter: blur(80px); }
-.page-bg-blob-a { width: 55vmax; height: 55vmax; top: -18vmax; right: -12vmax; opacity: 0.5; background: radial-gradient(circle, var(--teal-soft) 0%, transparent 70%); animation: bg-drift-a 22s ease-in-out infinite alternate; }
-.page-bg-blob-b { width: 50vmax; height: 50vmax; bottom: -20vmax; left: -14vmax; opacity: 0.5; background: radial-gradient(circle, var(--gold-soft) 0%, transparent 70%); animation: bg-drift-b 26s ease-in-out infinite alternate; }
-.page-bg-blob-c { width: 38vmax; height: 38vmax; top: 40%; left: 55%; opacity: 0.18; background: radial-gradient(circle, var(--coral) 0%, transparent 70%); animation: bg-drift-c 30s ease-in-out infinite alternate; }
-@keyframes bg-drift-a { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(-6vmax, 8vmax) scale(1.15); } }
-@keyframes bg-drift-b { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(8vmax, -6vmax) scale(1.1); } }
-@keyframes bg-drift-c { 0% { transform: translate(-4vmax,-4vmax) scale(1); } 100% { transform: translate(4vmax, 4vmax) scale(1.2); } }
+.page-bg-blob { position: absolute; border-radius: 50%; filter: blur(70px); }
+.page-bg-blob-a { width: 55vmax; height: 55vmax; top: -18vmax; right: -12vmax; opacity: 0.35; background: radial-gradient(circle, var(--teal) 0%, transparent 70%); animation: bg-drift-a 20s ease-in-out infinite alternate; }
+.page-bg-blob-b { width: 50vmax; height: 50vmax; bottom: -20vmax; left: -14vmax; opacity: 0.3; background: radial-gradient(circle, var(--gold) 0%, transparent 70%); animation: bg-drift-b 24s ease-in-out infinite alternate; }
+.page-bg-blob-c { width: 42vmax; height: 42vmax; top: 38%; left: 55%; opacity: 0.22; background: radial-gradient(circle, var(--coral) 0%, transparent 70%); animation: bg-drift-c 28s ease-in-out infinite alternate; }
+@keyframes bg-drift-a { 0% { transform: translate(0,0) scale(1);} 100% { transform: translate(-8vmax, 10vmax) scale(1.2);} }
+@keyframes bg-drift-b { 0% { transform: translate(0,0) scale(1);} 100% { transform: translate(10vmax, -8vmax) scale(1.15);} }
+@keyframes bg-drift-c { 0% { transform: translate(-5vmax,-5vmax) scale(1);} 100% { transform: translate(5vmax, 5vmax) scale(1.25);} }
