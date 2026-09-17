@@ -36,7 +36,6 @@ const themes = {
     "--gold-soft":   "rgba(56, 189, 248, 0.1)",
     "--coral":       "#818CF8",
   }
-};
 const themeOrder = Object.keys(themes);
 
 function applyTheme(name) {
